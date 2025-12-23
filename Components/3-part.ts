@@ -38,6 +38,19 @@ interface Customer {
   loyaltyPoints: number;
 }
 
+const customer: Customer = {
+  id: 1,
+  username: "ali123",
+  email: "ali@example.com",
+  fullName: "Ali Valiyev",
+  createdAt: "2024-01-15",
+  isActive: true,
+  phoneNumber: "+998901234567",
+  address: "Toshkent, Chilonzor",
+  purchaseHistory: [101, 102, 103],
+  loyaltyPoints: 250,
+};
+
 // ==============================
 // 3. Vendor interfeysi
 // Sotuvchilar uchun ma'lumotlar, User va Customer'ga o'xshash
@@ -54,6 +67,18 @@ interface Vendor {
   companyName: string;
   vendorRating: number;
 }
+
+const vendor: Vendor = {
+  id: 10,
+  username: "vendor01",
+  email: "info@company.uz",
+  fullName: "Jasur Karimov",
+  createdAt: "2023-11-20",
+  isActive: true,
+  address: "Samarqand shahri",
+  companyName: "Tech Solutions LLC",
+  vendorRating: 4.7,
+};
 
 // ==============================
 // 4. Product interfeysi
